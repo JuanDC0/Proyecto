@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+.intputBtns{
+    margin: 0 4px;
+    border: 1px gray solid;
+    text-align: center;
+    height: 2.2rem ;
+    width: 1.7rem ;
+    border-radius: 5px;
+}
+
+.inputText{
+    display: flex;
+    min-width: 80vw;
+    border-radius: 4px;
+    border: 1px gray solid;
+    padding: 4px 8px ;
+    text-align: center;
+}

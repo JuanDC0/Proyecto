@@ -1,0 +1,19 @@
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    background-color:#a723ffbe;
+    align-items: center;
+    min-height: 3rem;
+    margin-bottom: 20px;
+}
+
+.tabSelected{
+    border-bottom: 1px solid white;
+}
+
+.Link{
+    color: white;
+    text-decoration: none;
+}
+
