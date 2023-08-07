@@ -50,7 +50,7 @@ const Tecnologias = () => {
                     color={'#FFFFFF'} 
                     nombre={'Vercel'} 
                     img={'https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png'} 
-                    link={'https://vercel.com/'}
+                    link={'https://proyecto-juandc0.vercel.app/'}
                 />
                 <h3 className="text-center mt-2 mb-2">Repositorio</h3>
                 {/* <span>El repositorio está en: </span> */}
@@ -59,7 +59,7 @@ const Tecnologias = () => {
                     color={'#FFFFFF'} 
                     nombre={'GitHub'} 
                     img={'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png'} 
-                    link={'https://GitHub.com/'}
+                    link={'https://github.com/JuanDC0/Proyecto/'}
                 />
             </div>
         </>

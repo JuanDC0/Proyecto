@@ -19,7 +19,7 @@ return(
                    <img src={foto2} style={{ width: "150px", borderRadius: "100px", height: "150px"}} />
                </div>
                <div> <p>Juan Diego Andrade Calero</p>
-                   <img src={foto3} style={{ width: "150px", borderRadius: "100px", height: "150px" }}/>
+                    <img src={foto3} style={{ width: "150px", borderRadius: "100px", height: "150px" }}/>
                </div>
             </div>
         </div>
