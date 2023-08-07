@@ -12,13 +12,13 @@ return(
           
             <h2 className="text-center">Integrantes</h2>
             <div className = "d-flex justify-content-around flex-wrap">
-               <div> <p>Angie Nicol Rodriguez</p> 
+               <div> <li>Angie Nicol Rodriguez</li> 
                    <img src={foto1} style={{ width: "150px", borderRadius: "100px", height: "150px"}} />
                </div>
-               <div> <p>Jair Nixon Rodriguez </p>
+               <div> <li>Jair Nixon Rodriguez </li>
                    <img src={foto2} style={{ width: "150px", borderRadius: "100px", height: "150px"}} />
                </div>
-               <div> <p>Diego Andrade Calero</p>
+               <li> <p>Diego Andrade Calero</li>
                     <img src={foto3} style={{ width: "150px", borderRadius: "100px", height: "150px" }}/>
                </div>
             </div>
