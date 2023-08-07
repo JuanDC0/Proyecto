@@ -18,7 +18,7 @@ return(
                <div> <li>Jair Nixon Rodriguez </li>
                    <img src={foto2} style={{ width: "150px", borderRadius: "100px", height: "150px"}} />
                </div>
-               <li> <p>Diego Andrade Calero</li>
+               <div> <li>Diego Andrade Calero</li>
                     <img src={foto3} style={{ width: "150px", borderRadius: "100px", height: "150px" }}/>
                </div>
             </div>
