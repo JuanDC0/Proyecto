@@ -7,11 +7,11 @@ const Integrantes = () => {
 return(
     <>
     <NavBar />
-        <div>
+        <div className=" flex-wrap">
         
           
             <h2 className="text-center">Integrantes</h2>
-            <div className = "d-flex justify-content-around">
+            <div className = "d-flex justify-content-around ">
                <div> <p>Rodriguez Peova Angie Nicole</p> 
                    <img src={foto1} style={{ width: "150px", borderRadius: "100px", height: "150px"}} />
                </div>
