@@ -27,5 +27,4 @@ return(
 )    
 }
 
-
 export default Integrantes
