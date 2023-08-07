@@ -1,0 +1,17 @@
+.text {
+    padding: 0 1rem;
+}
+.text p{
+    font-size: 1.3rem;
+    font-family: candara;
+}
+
+.text h2{
+    font-family: 'candara';
+    padding: 2px;
+    color: rgb(177, 144, 0);
+}
+.text div img {
+    padding: 10px;
+    margin: 10px;
+}

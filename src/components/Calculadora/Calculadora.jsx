@@ -107,13 +107,15 @@ const Calculadora = () => {
     return (
         <>
             <NavBar />
-            <div className="ps-2 pe-2">
-                <h3 className="text-center">Calculadora de ecuaciones de primer grado</h3>
-                <span className="ms-1"> Indicaciones: </span>
-                <ul>
-                    <li>Solo se puede utilizar una variable, la variable <strong>X</strong></li>
-                    <li>La ecuación siempre debe tener un <strong>=</strong></li>
-                </ul>
+            <div className={style.indicaciones}>
+                <h3 className="text-center p-3">Calculadora de ecuaciones de primer grado</h3>
+                <div className="ms-4">
+                    <span> Indicaciones: </span>
+                    <ul>
+                        <li>Solo se puede utilizar una variable, la variable <strong>X</strong></li>
+                        <li>La ecuación siempre debe tener un <strong>=</strong></li>
+                    </ul>
+                </div>
                 <div className="d-flex flex-column justify-content-center align-items-center">
                     <input type="text"
                         value={info}
@@ -122,18 +124,21 @@ const Calculadora = () => {
                         onKeyDown={(e) => pressEnter(e)}
                     />
                     <button
-                        className="btn btn-primary mt-3"
+                        className="btn btn-primary ps-4 pe-4 mt-3"
                         disabled={info.length == 0}
                         onClick={() => handleCalcular()}
                     >
                         Calcular
                     </button>
                 </div>
+                <div className="d-flex justify-content-center pt-4">
+
                 {error ?
-                    <label className="text-danger">{error}</label>
+                    <label className="text-danger text-center">{error}</label>
                     :
-                    <label className="text-success">{resultado}</label>
+                    <label className="text-success text-center">{resultado}</label>
                 }
+                </div>
             </div>
         </>
     )
