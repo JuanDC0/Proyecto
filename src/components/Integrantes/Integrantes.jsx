@@ -7,7 +7,7 @@ const Integrantes = () => {
 return(
     <>
     <NavBar />
-        <div className=" flex-wrap">
+        <div>
         
           
             <h2 className="text-center">Integrantes</h2>
