@@ -16,7 +16,7 @@ const Calculadora = () => {
     const handleCalcular = () => {
         if (validarDatos() == '') {
             try {
-                const ecuacionOriginal = info
+                const ecuacionOriginal = info.toLowerCase()
                 //dividimos la ecuacion en 2
                 const lados = ecuacionOriginal.split('=');
                 const ladoIzquierdo = lados[0].trim();
